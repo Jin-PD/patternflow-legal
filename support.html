@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>고객 지원 | PatternFlow</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fafaf9;
+    --fg: #1c1c1c;
+    --muted: #6b6b6b;
+    --border: #e5e5e3;
+    --accent: #2f6f5e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17181a;
+      --fg: #ececec;
+      --muted: #9a9a9a;
+      --border: #2c2d30;
+      --accent: #6fbfa6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.7;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  header {
+    margin-bottom: 40px;
+  }
+  .app-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 26px;
+    margin: 0 0 6px;
+  }
+  .updated {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  h2 {
+    font-size: 18px;
+    margin: 40px 0 12px;
+    border-top: 1px solid var(--border);
+    padding-top: 28px;
+  }
+  h2:first-of-type {
+    border-top: none;
+    padding-top: 0;
+  }
+  p { margin: 0 0 14px; font-size: 15.5px; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { margin-bottom: 6px; font-size: 15.5px; }
+  a { color: var(--accent); }
+  .contact {
+    font-size: 15.5px;
+  }
+  .email-box {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 14px 18px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="app-name">PatternFlow</div>
+    <h1>고객 지원</h1>
+    <div class="updated">최종 수정일: 2026-09-10</div>
+  </header>
+
+  <h2>문의하기</h2>
+  <p>PatternFlow 이용 중 궁금한 점이나 불편사항이 있으시면 아래 이메일로 편하게 연락해 주세요. 보통 1~2일 이내에 답변드립니다.</p>
+  <p><a class="email-box" href="mailto:patternflow.app@gmail.com">patternflow.app@gmail.com</a></p>
+
+  <h2>자주 묻는 질문</h2>
+  <p><strong>기록 데이터가 삭제되면 복구할 수 있나요?</strong><br>
+  기록은 기기와 사용자 본인의 iCloud에 저장됩니다. iCloud 백업이 남아있다면 앱 재설치 후 같은 Apple ID로 로그인 시 자동으로 복원됩니다.</p>
+  <p><strong>구독은 어디서 관리하나요?</strong><br>
+  iOS 설정 &gt; Apple ID &gt; 구독 메뉴에서 PatternFlow 구독을 확인하고 해지할 수 있습니다.</p>
+  <p><strong>버그를 발견했어요.</strong><br>
+  기기 모델, iOS 버전, 발생 상황을 위 이메일로 보내주시면 빠르게 확인하겠습니다.</p>
+
+  <h2>개인정보처리방침</h2>
+  <p>데이터 저장 및 처리 방식은 <a href="privacy-policy.html">개인정보처리방침</a> 페이지에서 확인하실 수 있습니다.</p>
+
+  <footer>PatternFlow &middot; patternflow.app@gmail.com</footer>
+</div>
+</body>
+</html>
